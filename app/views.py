@@ -20,10 +20,16 @@ job_description = [
 # def hello(request):
 #     return HttpResponse("<title> Home </title> <h2>Hellow world</h2>")
 
+class TempClass:
+    x = 5
+
+
 
 def hello(request):
     template = loader.get_template("app/hello.html")
-    context = {}
+    list = ["alpha", "Beta"]
+    temp = TempClass()
+    context = {"name":"Django", "firstList":list, "temp_obj":temp}
     return HttpResponse(template.render(context, request))
 
 
