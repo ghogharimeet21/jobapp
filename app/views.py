@@ -26,12 +26,12 @@ class TempClass:
 
 
 def hello(request):
-    template = loader.get_template("app/hello.html")
+    # template = loader.get_template("app/hello.html")
     list = ["alpha", "Beta"]
     temp = TempClass()
     context = {"name":"Django", "firstList":list, "temp_obj":temp}
-    return HttpResponse(template.render(context, request))
-
+    # return HttpResponse(template.render(context, request))
+    return render(request, "app/hello.html", context)
 
 def job_list(request):
     list_of_jobs = "<ul>"
