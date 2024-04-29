@@ -29,7 +29,7 @@ def hello(request):
     # template = loader.get_template("app/hello.html")
     list = ["alpha", "Beta"]
     temp = TempClass()
-    context = {"name":"Django", "firstList":list, "temp_obj":temp}
+    context = {"name":"Django", "firstList":list, "temp_obj":temp, "age":10}
     # return HttpResponse(template.render(context, request))
     return render(request, "app/hello.html", context)
 
