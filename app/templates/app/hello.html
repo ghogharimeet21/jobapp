@@ -1,5 +1,8 @@
+{% if is_authenticated %}
 <h1>Hellow {{name}}</h1>
+{% else %}
+<h1> Hellow User </h1>
+{% endif %}
 <h2>{{firstList.0}}</h2>
 <h3>{{temp_obj.x}}</h3>
-
 <h4> Age :{{age}} </h4>
