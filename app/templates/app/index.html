@@ -3,8 +3,9 @@
 
 {% for job in job_title_list %}
     <li>
-        <a href="{{job_id}}" > {{job}} </a>
+        <a href="job/{{forloop.counter0}}" > {{job}} </a>
     </li>
 {% endfor %}
 
 </ul>
+{% comment %} we added counter0 because of by this function loop start with 0 {% endcomment %}
