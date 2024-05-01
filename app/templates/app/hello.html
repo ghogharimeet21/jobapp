@@ -10,3 +10,10 @@
 {% for x in firstList %}
 <p>First: {{x}}</p>
 {% endfor %}
+
+<h1> Filters </h1>
+{{firstList | length}}
+{{firstList | length_is:"3"}}
+{% comment %} we can perform a operation on variable
+directly using this kind of built in filters in jango we can see more like
+that of official jango documentation {% endcomment %}
