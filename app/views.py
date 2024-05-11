@@ -1,7 +1,7 @@
-from django.http import HttpResponse, HttpResponseNotFound
+from django.http import HttpResponseNotFound
 from django.shortcuts import render, redirect
 from django.urls import reverse
-from django.template import loader
+from .models import JobPost
 
 job_title = [
     "first job",
@@ -43,7 +43,8 @@ def job_list(request):
     # list_of_jobs += "</ul>"
     # return HttpResponse(list_of_jobs)
 
-    context = {"job_title_list":job_title, "job_id":detail_url}
+    jobs = JobPost.objects.all()
+    context = {"jobs":jobs}
     return render(request, "app/index.html", context)
 
 def job_detail(request, id):
