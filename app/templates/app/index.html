@@ -3,7 +3,7 @@
 
 {% for job in jobs %}
     <li>
-        <a href="{% url 'jobs_detail' forloop.counter0%}" > 
+        <a href="{% url 'jobs_detail' job.id%}" > 
             {{job}} 
         </a>
     </li>
