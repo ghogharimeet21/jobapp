@@ -12,7 +12,8 @@ class JobPost(models.Model):
     slug = models.SlugField(null=True)
 
     def save(self, *args, **kwargs):
-        self.slug = slugify(self.title)
+        if not self.id:
+            self.slug = slugify(self.title)
         return super(JobPost, self).save(*args, **kwargs)
 
     def __str__(self):
