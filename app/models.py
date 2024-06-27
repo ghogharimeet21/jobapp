@@ -18,4 +18,4 @@ class JobPost(models.Model):
         return super(JobPost, self).save(*args, **kwargs)
 
     def __str__(self):
-        return self.title
+        return f"{self.title}| with salary |{self.salary}"
