@@ -16,6 +16,7 @@ class JobAdmin(admin.ModelAdmin):
             "fields":("title", "description",)
         }),
         ("More Information",{
+            "classes":("collapse",),
             "fields":(("expiry", "salary",),"slug",)
         }),
     )
