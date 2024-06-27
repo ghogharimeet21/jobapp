@@ -8,5 +8,9 @@ class JobAdmin(admin.ModelAdmin):
 
     search_fields = ("title","description",)
     search_help_text = "write in your query and hit enter"
+
+    # fields = (("title","description"),"expiry",)
+    exclude = ("title",)
+
 # Register your models here.
 admin.site.register(JobPost, JobAdmin)
