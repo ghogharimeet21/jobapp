@@ -1,0 +1,266 @@
+[33mcommit 2b87e135b5094eeed01c91310bc5443abf415ad7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Tue Jul 2 13:30:55 2024 +0530
+
+    this is just some migration files
+
+[33mcommit b8765de7af5285110f630a469f19d7c2e4d829ad[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Tue Jul 2 13:29:12 2024 +0530
+
+    we make another model for jobpost location and performed One to One relationship which our models
+
+[33mcommit 0e9e1f7c70cae3d4726bd580b86f6ef46f87f039[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 17:01:16 2024 +0530
+
+    ( collapse feature added in admin panal )in more info if we have so many fields we can collapse using this kind of functionality
+
+[33mcommit 65313787a112e9c946eae3ab98acd870ca12b70e[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 16:53:59 2024 +0530
+
+    added more customization in admin panal using Fieldsets
+
+[33mcommit 6ff7aadc1f889e9e4c29b53d163bae55d58cd404[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 16:44:25 2024 +0530
+
+    010 Managing fields in detail view
+
+[33mcommit c3246919b2e7ca34f8f3d65100592b20a25d4024[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 16:37:00 2024 +0530
+
+    added search feture in admin panal
+
+[33mcommit 6bc9f3a45399b2db02dc1aa83287d45135cce2ba[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 16:29:03 2024 +0530
+
+    added filter in admin pannal for more customization in admin panal
+
+[33mcommit 97d3b20af694c456377c4f4d01462625387e2d7c[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 16:24:05 2024 +0530
+
+    added more customization in admin panal like change the way of look of JobPost model in admin panal
+
+[33mcommit 00719c46e4acba13f4338116b1d007bb34ad62f0[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 15:55:10 2024 +0530
+
+    added expiry migration file
+
+[33mcommit 6e4e8d6b418f095019b7f1a741e90f911770e290[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 15:53:26 2024 +0530
+
+    added we field called expiry which is indicats when the job post should be expired
+
+[33mcommit cd4c1b8d6b94971dc4628a407930966736de146c[m
+Author: Meet <161622011+ghogharimeet21@users.noreply.github.com>
+Date:   Thu Jun 27 12:27:27 2024 +0530
+
+    we Regitered our model JobPost in admin panal
+
+[33mcommit 970756b53b116f879815abb26b3a0598afd59bda[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Tue Jun 4 17:26:08 2024 +0530
+
+    added limit in slug field
+    
+    the slug field has default max length is 50 but in this code we set the limit of 40
+    and
+    every time slug field must be unique that's why we added unique = True
+
+[33mcommit 42d3335ea140e2213c218645cdab7f228b4086e6[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Tue Jun 4 17:19:58 2024 +0530
+
+    025 Best practices and preventing updates of Slugs
+
+[33mcommit f1493d0a2304b3f6f628511cb3f2e0af551a896a[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Thu May 16 01:08:05 2024 +0530
+
+    Working with Slugs, why slugs
+
+[33mcommit 0ae9d8e768370f03c9b454f78605fa8ea8b5f66c[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Sat May 11 21:10:31 2024 +0530
+
+    we changed hardcoded url to dynamic urls
+    
+    also added dynamic ids from the data base
+
+[33mcommit ed4d26661607696798e776feb4c1b43e8246b7c3[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Sat May 11 20:59:23 2024 +0530
+
+    added dinamic data
+    
+    here we implemented dynamic data trasfer data base to HTML template
+
+[33mcommit 641b74878899b415bee4f928d3bc366af4ab223d[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Sat May 11 00:41:56 2024 +0530
+
+    Performed some ORM quiry
+
+[33mcommit 6f6c7c7458d36631a25d00ea6062e0a1408912a4[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Fri May 10 23:06:27 2024 +0530
+
+    Added str object in model
+    
+    str Method is allow us to define string representation on an object
+    
+    whenever it is used
+    
+    it thow user frinedly output
+
+[33mcommit 6238f70d4821e67595c79540ad3b0d67a61c58ab[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Fri May 10 22:50:50 2024 +0530
+
+    inserting data using jango shell and performed some orm commands
+
+[33mcommit 75d0cbf4e11f0465cc724e1eb912972fbaf58c3d[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon May 6 13:07:27 2024 +0530
+
+    Remigration
+
+[33mcommit a36be1d285ecb86dba337faee3151309cf4824fc[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon May 6 12:57:56 2024 +0530
+
+    added more fields in model
+
+[33mcommit 1808e469ba406fa43778e23b9584a154ca3502fd[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon May 6 11:58:30 2024 +0530
+
+    created first model
+    
+    we created our first jango model
+    
+    firstly we created out model in models.py file using models.Model class
+    
+    After
+    
+    we run some commands in order to migrate our model in to the database
+    
+    >> python3 manage.py makemigration
+    > this commmand is run form make our migration file in side the migration foulde in our app
+    
+    >> python3 manage.py sqlmigrate app 0001
+    > this command contains app name and migration file name
+    this command shows us to what sql quary been executed
+    
+    >> python3 manage.py showmigrations
+    > this command shows us to how many and what are the type of migrations we executed
+    
+    >> python3 manage.py migrat
+    > this command is used for run the migration into the database
+
+[33mcommit 97123cd24af9e0643c1bb6382645709b2cdd49e1[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 18:34:03 2024 +0530
+
+    converted hard coded urls into dynamic urls using counter function
+
+[33mcommit 698b5fee262d22c725da3b9695faa614fc367279[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 18:22:48 2024 +0530
+
+    foloop counter
+    
+    we added forloop counter for link our job detail pages
+    
+    also we learned new function called job counter
+
+[33mcommit 136ada34b1290a4a9a2573729570ededb42cf5fe[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 18:17:02 2024 +0530
+
+    challenge completed by my self with some errors
+
+[33mcommit 5587759dbf4c6bb9fcf33d8d014f931222109781[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 17:46:45 2024 +0530
+
+    this is comment written using jango tag
+
+[33mcommit cfa9b0b22f0b7b3fad5709d2b17ad135d0da48fe[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 17:02:04 2024 +0530
+
+    implemented templates for job detail functionality
+
+[33mcommit 6146c8ad1138366051fac247a2251366f2515fbe[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 16:47:22 2024 +0530
+
+    created job detail page
+
+[33mcommit 8193fda3c5afab7e353f92fe09e3940f565b191f[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 16:42:55 2024 +0530
+
+    filters in jango
+    
+    we can perform a operation on variable
+    directly using this kind of built in filters in jango we can see more like
+    that of official jango documentation
+
+[33mcommit e737ee5adfe206faa4daaac04150efb5d51899d2[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 16:31:15 2024 +0530
+
+    For Loop
+    
+    We added for loop in jango template file hello.html
+
+[33mcommit ced4fb73947660f2a417fe4e17328ddeb256f667[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Wed May 1 16:25:20 2024 +0530
+
+    If Else
+    
+    We added If else statement in jango template using jango tags and performed if else operation in behind HTML
+
+[33mcommit 3958e1bfb8a31583e9bab9e2329baa83200a9ebc[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon Apr 29 16:02:28 2024 +0530
+
+    compelated chalenge
+    
+    Added Age variable in context and render dynamiclly on hello.html
+
+[33mcommit 2269453457cb29e80b016fcbdf1f8674cdad4c15[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon Apr 29 15:55:15 2024 +0530
+
+    Implemented render function
+
+[33mcommit cfa82eee070e7d0721aa991e9ec432ba75d51ea1[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon Apr 29 15:48:38 2024 +0530
+
+    Working with variables to render dynamic information
+    
+    we learned how we can render dynamic variable on HTML template and also how we can render class based objects on template
+
+[33mcommit a9295464c8d617c1891b8e4928997d7d90bedfdd[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon Apr 29 15:26:18 2024 +0530
+
+    we learned how can we store templates in efficiant way with using apps and multimple appa as experts recomended
+
+[33mcommit 9a057dc75a2b4a88abc44e1c8eaf71478e4f29aa[m
+Author: ghogharimeet21 <ghogharimeet2121@gmail.com>
+Date:   Mon Apr 29 14:54:53 2024 +0530
+
+    Startd working on job app and firstly Start working on jango templates
