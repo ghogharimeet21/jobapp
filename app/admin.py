@@ -22,4 +22,4 @@ class JobAdmin(admin.ModelAdmin):
     )
 
 # Register your models here.
-admin.site.register(JobPost, JobAdmin)
+admin.site.register(JobPost)
