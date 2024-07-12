@@ -1,5 +1,5 @@
 from django.contrib import admin
-from app.models import JobPost
+from app.models import JobPost, Location
 
 class JobAdmin(admin.ModelAdmin):
     list_display = ("__str__","title","salary","date",)
@@ -23,3 +23,4 @@ class JobAdmin(admin.ModelAdmin):
 
 # Register your models here.
 admin.site.register(JobPost)
+admin.site.register(Location)
